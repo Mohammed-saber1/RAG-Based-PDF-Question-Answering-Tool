@@ -1,6 +1,6 @@
 # RAG-Based PDF Question Answering Tool
 
-A Streamlit application that uses Retrieval-Augmented Generation (RAG) to answer questions about uploaded PDF documents.
+This Streamlit-based application enables users to upload PDF documents and query their content using Retrieval-Augmented Generation (RAG). Powered by LangChain and HuggingFace embeddings (sentence-transformers/all-MiniLM-L6-v2), it processes PDFs, splits them into chunks, and stores them in a Chroma vector store for efficient semantic search. The user-friendly chat interface provides concise, context-aware responses (max 3 sentences) based on the document content and maintains chat history for seamless interaction.
 
 ## Features
 - Upload and process PDF documents
